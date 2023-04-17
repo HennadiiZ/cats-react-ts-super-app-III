@@ -1,0 +1,28 @@
+.button {
+  border: none;
+  outline: none;
+  padding: 10px;
+  min-width: 80px;
+  height: 40px;
+  background: linear-gradient(180deg, #9b7efa 0%, #7e5ae1 100%);
+  border-radius: 15px;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  margin-right: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+
+  &:last-child {
+    margin-right: 0px;
+  }
+
+  &:hover {
+    background: linear-gradient(180deg, #ac98ee 0%, #745cb6 100%);
+  }
+}

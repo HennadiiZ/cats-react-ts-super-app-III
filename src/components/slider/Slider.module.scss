@@ -1,0 +1,28 @@
+.slider {
+  h1 {
+    margin: 17px;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #373d59;
+  }
+
+  &__spinner {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+    min-height: 400px;
+  }
+
+  &__buttons {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+
+    button:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+  }
+}
